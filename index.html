@@ -24,6 +24,10 @@
       a {
         color: blue;
       }
+      #projects-section {
+        display: flex;
+        flex-wrap: wrap;
+      }
     </style>
   </head>
   <body>
@@ -32,71 +36,80 @@
       <p>
         Recent graduate of the Northcoders 14-week full stack software
         development bootcamp. This website contains links to project work
-        completed during this course. You can get in contact
+        completed during this course, and some other personal projects. You can
+        get in contact
         <a href="mailto:kelsall.lewis@gmail.com">via email</a>, or find me on
         <a href="https://github.com/lkelsall" target="_blank">GitHub</a>.
       </p>
       <p>Thank you for visiting this website :)</p>
     </section>
-    <section>
-      <article>
+    <section id="projects-section">
+      <article class="project-description">
         <h3>NC Games <span>ReactJS Web Frontend</span></h3>
-        <p>
-          A website for viewing, upvoting and commenting on board game reviews.
-        </p>
-        <p>
-          I styled the site using styled-components, a CSS-in-JS library for
-          React.
-        </p>
-        <p>
-          You can
-          <a href="https://nc-board-games.netlify.app/" target="_blank">
-            view it live</a
-          >, and find the codebase on
-          <a href="https://github.com/lkelsall/nc-games" target="_blank"
-            >GitHub</a
-          >.
-        </p>
+        <ul>
+          <li>
+            A website for viewing, upvoting and commenting on board game
+            reviews.
+          </li>
+          <li>
+            I styled the site using styled-components, a CSS-in-JS library for
+            React.
+          </li>
+          <li>
+            You can
+            <a href="https://nc-board-games.netlify.app/" target="_blank">
+              view it live</a
+            >, and find the codebase on
+            <a href="https://github.com/lkelsall/nc-games" target="_blank"
+              >GitHub</a
+            >.
+          </li>
+        </ul>
       </article>
-      <article>
+      <article class="project-description">
         <h3>NC Games API <span>Express.js Backend</span></h3>
-        <p>
-          A RESTful API which provides the backend for NC Games, utilizing a
-          Model-View-Controller design pattern.
-        </p>
-        <p>
-          The user, review and comment data is stored in a PostgreSQL database.
-        </p>
-        <p>
-          You can
-          <a
-            href="https://board-game-reviews.herokuapp.com/api/"
-            target="_blank"
-            >view it live</a
-          >, and find the codebase on
-          <a href="https://github.com/lkelsall/nc-games-api" target="_blank"
-            >GitHub</a
-          >.
-        </p>
+        <ul>
+          <li>
+            A RESTful API which provides the backend for NC Games, utilizing a
+            Model-View-Controller design pattern.
+          </li>
+          <li>
+            The user, review and comment data is stored in a PostgreSQL
+            database.
+          </li>
+          <li>
+            You can
+            <a
+              href="https://board-game-reviews.herokuapp.com/api/"
+              target="_blank"
+              >view it live</a
+            >, and find the codebase on
+            <a href="https://github.com/lkelsall/nc-games-api" target="_blank"
+              >GitHub</a
+            >.
+          </li>
+        </ul>
       </article>
-      <article>
+      <article class="project-description">
         <h3>DogTags <span>Native Mobile App using Tensorflow.js</span></h3>
-        <p>
-          A React Native mobile app using machine learning to classify photos of
-          pet dogs by breed.
-        </p>
-        <p>
-          Developed in a small team using agile-inspired practices such as daily
-          standups and pair programming.
-        </p>
-        <p>
-          More information about this project can be found on
-          <a
-            href="https://github.com/lkelsall/dog-breed-identifier"
-            target="_blank"
-            >GitHub</a
-          >.
-        </p>
+        <ul>
+          <li>
+            A React Native mobile app using machine learning to classify photos
+            of pet dogs by breed.
+          </li>
+          <li>
+            Developed in a small team using agile-inspired practices such as
+            daily standups and pair programming.
+          </li>
+          <li>
+            More information about this project can be found on
+            <a
+              href="https://github.com/lkelsall/dog-breed-identifier"
+              target="_blank"
+              >GitHub</a
+            >.
+          </li>
+        </ul>
       </article>
     </section>
   </body>
